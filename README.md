@@ -8,16 +8,13 @@ To write a program to predict the price of the house and number of occupants in 
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1.Import the required packages and print the present data.  
+1.Load the house dataset and separate input features (X) and target outputs (y).
 
-2.Print the placement data and salary data. 
+2.Perform feature scaling using standardization to normalize the data.
 
-3.Find the null and duplicate values.  
+3.Train the SGD regressor model using the scaled dataset.
 
-4.Using logistic regression find the predicted values of accuracy , confusion matrices. 
-
-5.Display the results.
-
+4.Predict the house price and number of occupants using the trained model and display the results. 
 ## Program:
 ```
 /*
